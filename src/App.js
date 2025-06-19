@@ -1,9 +1,15 @@
-import Demo from "./demo";
+import Counter from "./Counter";
+
 function App() {
+    // create a variable
+    const username = "Gambhir Poudel"
     return (
         <>
-            <h1>Hello World</h1>
-            <Demo />
+            {/* react use curly braces to evaluate javascript expressions i.e final output*/}
+            <h1>Hello {username} </h1>
+
+
+            <Counter />
         </>
 
     )
