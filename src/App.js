@@ -1,8 +1,11 @@
-import Demo from "./demo";
+import Demo from "./Demo";
 function App() {
+    // create a variable
+    const username = "Gambhir Poudel"
     return (
         <>
-            <h1>Hello World</h1>
+            {/* react use curly braces to evaluate javascript expressions i.e final output*/}
+            <h1>Hello {username} </h1>
             <Demo />
         </>
 
